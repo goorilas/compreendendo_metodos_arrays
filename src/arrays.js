@@ -3,7 +3,7 @@
 const redesSociais = ['Facebook', 'Instagram', 'Twiter'];
 //vamos intender o que esta acontecendo no for. esse (i) é o indice inicial de um arry. quando o (i é (0) o item inicial é facebook.)
 //quando o (i) é 1 dentro do array é o instagram. 
-// esse for só sera executado enquanto o (i) for menor do que a quantidade de itens dentro desse array.
+// esse (for) só sera executado enquanto o (i) for menor do que a quantidade de itens dentro desse array.
 //quando a gente faz o array.length temos o retorno de 3 itens.
 for (let i = 0; i < redesSociais.length; i++) {
     console.log(`Eu tenho perfil na rede social: ${redesSociais[i]}`)
@@ -26,7 +26,7 @@ alunos.map(function(itemAtual) {
         //aqui vmos adicionar um curso para esse aluno.
         curso: 'Frontend',
     }
-    //aqui a gente tbm pracisa fazer o retorno do itemAtual.
+    //aqui a gente tbm precisa fazer o retorno do itemAtual.
     return itemAtual;
 })
 //aqui precisamos de uma variavel para armazenar a resposta.
